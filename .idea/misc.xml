@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable-anydpi/ic_home.xml" value="0.218" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable-anydpi/ic_keyboard_arrow_down.xml" value="0.1235" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable-mdpi/background.xml" value="0.2225" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable-mdpi/circle_background.xml" value="0.2225" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1235" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable-xhdpi/ic_logout.xml" value="0.227" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable-xhdpi/ic_profile.xml" value="0.227" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable/custom_border.xml" value="0.1235" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable/custom_cardview.xml" value="0.126" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable/custom_realtivelayout.xml" value="0.2" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable/customspinner.xml" value="0.129" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/drawable/ic_down.xml" value="0.129" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.25" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_dashboard_user.xml" value="0.22" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_desc_anggota.xml" value="0.25" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_desc_buku.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_edit_buku.xml" value="0.2914529914529915" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_edit_data_buku.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_edit_kategori.xml" value="0.22" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_edit_profil.xml" value="0.2914529914529915" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_konfirmasi_peminjaman.xml" value="0.22" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_konfirmasi_pengembalian.xml" value="0.22" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_landingpage.xml" value="0.35520833333333335" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_passcode.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_passcode2.xml" value="0.2799145299145299" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_pengembalian.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_tambah_anggota.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_tambah_buku.xml" value="0.2914529914529915" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_tambah_kategori.xml" value="0.25" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_test.xml" value="0.35520833333333335" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/activity_verifikasi_email.xml" value="0.2914529914529915" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_daftar_tunggu.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_dashboard_admin.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_data_anggota.xml" value="0.2914529914529915" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_data_buku.xml" value="0.2914529914529915" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_data_peminjaman.xml" value="0.22" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_data_pengembalian.xml" value="0.2905982905982906" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_kategori.xml" value="0.22" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_keranjang_pinjam.xml" value="0.1371794871794872" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_peminjaman.xml" value="0.22" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_pengembalian.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_permintaan_pengembalian.xml" value="0.25" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/fragment_tunggu.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/list_anggota.xml" value="0.25" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/list_buku.xml" value="0.35520833333333335" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/list_daftar_tunggu.xml" value="0.25" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/list_kategori.xml" value="0.25" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/list_peminjaman.xml" value="0.35520833333333335" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/list_pengembalian.xml" value="0.25" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/list_permintaan.xml" value="0.33" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/list_tunggu.xml" value="0.22" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/nav_header.xml" value="0.35520833333333335" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/popup_cek_verifikasi_email.xml" value="0.2914529914529915" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/layout/popup_verifikasi_email.xml" value="0.2914529914529915" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/menu/drawer_menu.xml" value="0.35520833333333335" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/menu/drawer_menu_admin.xml" value="0.33" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/mipmap-anydpi-v26/ic_down.xml" value="0.1235" />
+        <entry key="..\:/Users/Kiki Tb/AndroidStudioProjects/ePerpus/app/src/main/res/mipmap-anydpi-v26/ic_down_round.xml" value="0.1235" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

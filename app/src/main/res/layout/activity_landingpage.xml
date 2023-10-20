@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.LandingPage_Activity">
+
+    <ImageView
+        android:id="@+id/img_landingPage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/landingpage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Selamat Datang Di\nAplikasi Perpustakaan Online"
+        android:textAlignment="center"
+        android:textColor="#5C5C5C"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_welcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:text="Aplikasi peminjaman buku online di perpustakaan\nUniversitas Katolik Santo Thomas"
+        android:textAlignment="center"
+        android:textColor="#5C5C5C"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_welcome" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#F25353"
+        android:text="Register"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_welcome2" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#F25353"
+        android:text="Login"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_register" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

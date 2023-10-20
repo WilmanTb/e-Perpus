@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Umum">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_dashboard"
+                    android:icon="@drawable/ic_home"
+                    android:title="Dashboard" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="Profil" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Informasi">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_peminjaman"
+                    android:icon="@drawable/ic_refresh"
+                    android:title="History peminjaman" />
+                <item
+                    android:id="@+id/nav_pengembalian"
+                    android:icon="@drawable/ic_reply"
+                    android:title="History pengembalian" />
+                <item
+                    android:id="@+id/nav_keranjangPinjam"
+                    android:icon="@drawable/ic_cart"
+                    android:title="Keranjang Peminjaman" />
+                <item
+                    android:id="@+id/nav_tunggu"
+                    android:icon="@drawable/ic_timer"
+                    android:title="Daftar tunggu" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Akun">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

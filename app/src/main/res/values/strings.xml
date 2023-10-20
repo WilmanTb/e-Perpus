@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ePerpus</string>
+    <string name="Login2">Belum Punya Akun ? <font color='#0645AD'>Register</font></string>
+    <string name="Register">Sudah punya akun ? <font color='#0645AD'>Login</font></string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string-array name="JenisKelamin">
+        <item>Laki - laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="KategoriBuku">
+        <item>Semua kategori</item>
+        <item>Fikom</item>
+        <item>Teknik</item>
+        <item>Pertanian</item>
+        <item>FKIP</item>
+        <item>Sastra</item>
+        <item>Ekonomi</item>
+        <item>Hukum</item>
+    </string-array>
+
+
+</resources>

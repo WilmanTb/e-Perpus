@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_account_circle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+    <TextView
+        android:id="@+id/nama_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/user_image"
+        android:layout_marginStart="10dp"
+        android:textSize="24sp"
+        android:layout_marginTop="33dp"
+        android:textColor="#4C4C4C"
+        android:fontFamily="sans-serif"/>
+
+
+    <TextView
+        android:id="@+id/npm_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/user_image"
+        app:layout_constraintTop_toBottomOf="@+id/nama_user"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:textColor="#4C4C4C"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E3E3E3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/npm_user"
+        android:layout_marginTop="40dp"/>
+    
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_editProfil"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        app:cardCornerRadius="14dp"
+        android:elevation="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profil"
+            android:textSize="20sp"
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="20dp"
+            android:textColor="#4C4C4C"
+            android:fontFamily="sans-serif"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_verifEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cv_editProfil"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        app:cardCornerRadius="14dp"
+        android:elevation="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verifikasi Email"
+            android:textSize="20sp"
+            android:layout_marginTop="13sp"
+            android:layout_marginStart="20dp"
+            android:textColor="#4C4C4C"
+            android:fontFamily="sans-serif"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--<androidx.cardview.widget.CardView
+        android:id="@+id/cv_historyDenda"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cv_verifEmail"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        app:cardCornerRadius="14dp"
+        android:elevation="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History Denda"
+            android:textSize="20sp"
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="20dp"
+            android:textColor="#4C4C4C"
+            android:fontFamily="sans-serif"/>
+
+    </androidx.cardview.widget.CardView>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

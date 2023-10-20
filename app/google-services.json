@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "73467883024",
+    "project_id": "eperpus-2fe42",
+    "storage_bucket": "eperpus-2fe42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73467883024:android:43107e1ea80513b96ae495",
+        "android_client_info": {
+          "package_name": "com.perpustakaan.eperpus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73467883024-kc6616qhrl7n4du2kjj751cuunfvh0nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyvCcjgcpCl-LD9B317VFO3qgBRKrQzIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73467883024-kc6616qhrl7n4du2kjj751cuunfvh0nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Activity.Tambah_Buku">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#F25353"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Tambah Buku" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Tambah Buku"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/kodeBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Kode Buku"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/in_kodeBuku"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="30dp"
+                android:hint="Masukkan Kode Buku"
+                app:endIconMode="clear_text"
+                app:helperText="Wajib diisi"
+                app:helperTextTextColor="#FF0000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/kodeBuku">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_kodeBuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/judulBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Judul Buku"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/in_kodeBuku" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/in_judulBuku"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="30dp"
+                android:hint="Masukkan Judul Buku"
+                app:endIconMode="clear_text"
+                app:helperText="Wajib diisi"
+                app:helperTextTextColor="#FF0000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/judulBuku">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_judulBuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/kategoriBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Kategori Buku"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/in_judulBuku" />
+
+            <Spinner
+                android:id="@+id/spin_kategori"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/customspinner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kategoriBuku" />
+
+
+            <TextView
+                android:id="@+id/penerbitBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Penerbit Buku"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/spin_kategori" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/in_penerbitBuku"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="30dp"
+                android:hint="Masukkan Penerbit Buku"
+                app:endIconMode="clear_text"
+                app:helperText="Wajib diisi"
+                app:helperTextTextColor="#FF0000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/penerbitBuku">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_penerbitBuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/tahunTerbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Tahun Terbit Buku"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/in_penerbitBuku" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/in_tahunTerbit"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="30dp"
+                android:hint="Masukkan Tahun Terbit Buku"
+                app:endIconMode="clear_text"
+                app:helperText="Wajib diisi"
+                app:helperTextTextColor="#FF0000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tahunTerbit">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_tahunTerbit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/pengarangBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Pengarang Buku"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/in_tahunTerbit" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/in_pengarangBuku"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="30dp"
+                android:hint="Masukkan Pengarang Buku"
+                app:endIconMode="clear_text"
+                app:helperText="Wajib diisi"
+                app:helperTextTextColor="#FF0000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pengarangBuku">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_pengarangBuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/bahasaBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Bahasa Buku"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/in_pengarangBuku" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/in_bahasaBuku"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="30dp"
+                android:hint="Masukkan Bahasa Buku"
+                app:endIconMode="clear_text"
+                app:helperText="Wajib diisi"
+                app:helperTextTextColor="#FF0000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bahasaBuku">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_bahasaBuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/halamanBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Halaman Buku"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/in_bahasaBuku" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/in_halamanBuku"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="30dp"
+                android:hint="Masukkan Jumlah Halaman Buku"
+                app:endIconMode="clear_text"
+                app:helperText="Wajib diisi"
+                app:helperTextTextColor="#FF0000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/halamanBuku">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_halamanBuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/stokBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Stok Buku"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/in_halamanBuku" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/in_stokBuku"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="30dp"
+                android:hint="Masukkan Stok Buku"
+                app:endIconMode="clear_text"
+                app:helperText="Wajib diisi"
+                app:helperTextTextColor="#FF0000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/stokBuku">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_stokBuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/gambarBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Gambar Buku"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/in_stokBuku" />
+
+            <RelativeLayout
+                android:id="@+id/rlfoto"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_border"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gambarBuku">
+
+                <TextView
+                    android:id="@+id/tv_pilihFoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Pilih..."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:text="Submit"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rlfoto" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

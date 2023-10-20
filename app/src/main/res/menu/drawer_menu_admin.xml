@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Umum">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_dashboard"
+                    android:icon="@drawable/ic_home"
+                    android:title="Dashboard" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Informasi">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_dataBuku"
+                    android:icon="@drawable/ic_library_books"
+                    android:title="Data Buku" />
+                <item
+                    android:id="@+id/nav_kategori"
+                    android:icon="@drawable/ic_category"
+                    android:title="Kategori" />
+                <item
+                    android:id="@+id/nav_dataAnggota"
+                    android:icon="@drawable/ic__people"
+                    android:title="Data Anggota" />
+                <item
+                    android:id="@+id/nav_peminjaman"
+                    android:icon="@drawable/ic_refresh"
+                    android:title="Data peminjaman" />
+                <item
+                    android:id="@+id/nav_pengembalian"
+                    android:icon="@drawable/ic_reply"
+                    android:title="Data pengembalian" />
+                <item
+                    android:id="@+id/nav_tunggu"
+                    android:icon="@drawable/ic_timer"
+                    android:title="Daftar Tunggu" />
+                <item
+                    android:id="@+id/nav_kembali"
+                    android:icon="@drawable/ic_timer"
+                    android:title="Permintaan Pengembalian" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Akun">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
+
+
+
+

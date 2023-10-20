@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.perpustakaan.eperpus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EPerpus"
+        tools:targetApi="31">
+        <activity
+            android:name=".User.Activity.Passcode2"
+            android:exported="false" />
+        <activity
+            android:name=".User.Activity.Verifikasi_Email"
+            android:exported="false" />
+        <activity
+            android:name=".User.Activity.Edit_Profil"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Activity.Desc_Anggota"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Activity.Edit_Kategori"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Activity.Tambah_Kategori"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Activity.Tambah_Anggota"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Activity.Tambah_Buku"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Activity.Konfirmasi_Pengembalian"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Activity.Konfirmasi_Peminjaman"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Activity.Edit_Data_Buku"
+            android:exported="false"
+            android:parentActivityName=".Admin.Activity.Edit_Buku" />
+        <activity
+            android:name=".Admin.Activity.Edit_Buku"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Activity.Dashboard_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".User.Activity.Pengembalian"
+            android:exported="false" />
+        <activity
+            android:name=".User.Activity.Passcode"
+            android:exported="false" />
+        <activity
+            android:name=".User.Activity.Desc_Buku"
+            android:exported="false"
+            android:parentActivityName=".User.Activity.Dashboard_User_Activity" />
+        <activity
+            android:name=".User.Activity.Dashboard_User_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Register_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.LandingPage_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
